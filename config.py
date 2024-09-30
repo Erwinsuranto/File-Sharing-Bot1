@@ -3,20 +3,20 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "AAHVKzqihy6VsMqfFpdnVL_8rHwsC5R_Bqc")
 
 #Your API ID & API HASH from my.telegram.org [https://youtu.be/gZQJ-yTMkEo?si=H4NlUUgjsIc5btzH]
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22505271"))
+APP_ID = int(os.environ.get("APP_ID", "25448292"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "c89a94fcfda4bc06524d0903977fc81e")
+API_HASH = os.environ.get("API_HASH", "abdfbb83e9442cbbf94e976d8ec5c486")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002075726565"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002267714791"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6695586027"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7568265690"))
 
 #Port
 PORT = os.environ.get("PORT", "8585")
@@ -37,7 +37,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/+PZfHvzjSiZc4OGE1") # shareus ka tut_vid he 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002108419450"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002274212670"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -66,7 +66,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6695586027)
+ADMINS.append(7568265690)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
