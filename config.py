@@ -19,7 +19,7 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002267714791"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "7568265690"))
 
 #Port
-PORT = os.environ.get("PORT", "8585")
+PORT = os.environ.get("PORT", "8080")
 
 #Database 
 #Database [https://youtu.be/qFB0cFqiyOM?si=fVicsCcRSmpuja1A]
